@@ -171,10 +171,10 @@ image.save("output.png")
 
 ## 六、 总结
 
-- 📦 **版本锁定**：`diffusers 0.36.0` + `torchao 0.14.0` 为当前最稳定组合。
-- ⚙️ **配置互斥**：`num_train_epochs` 与 `max_train_steps` 必须二选一，强烈建议使用步数（steps）控制。
-- 🏷️ **统一标签**：使用 `instanceprompt` 策略并配合 `only_instance_prompt: true`，即可实现完美的固定提示词微调。
+- 📦 **版本锁定**：**diffusers 0.36.0** + **torchao 0.14.0** 为当前最稳定组合。
+- ⚙️ **配置互斥**：**num_train_epochs** 与 **max_train_steps** 必须二选一，强烈建议使用步数（steps）控制。
+- 🏷️ **统一标签**：使用 **instanceprompt** 策略并配合 **only_instance_prompt: true**，即可实现完美的固定提示词微调。
 - 🎲 **随机种子**：根据实验需求，合理选择固定（可复现）或随机（验证多样性）。
-- 💾 **模型输出**：训练完成后，LoRA 权重默认保存路径为 `outputs/pytorch_lora_weights.safetensors`。
-- 💻 **环境信息**：`Ubuntu 20.04` / `Python 3.12` / `RTX 3090 24GB` / `SimpleTuner v4.0`
+- 💾 **模型输出**：训练完成后，LoRA 权重默认保存路径为 **outputs/pytorch_lora_weights.safetensors**。
+- 💻 **环境信息**：Ubuntu 20.04 / Python 3.12 / RTX 3090 24GB / SimpleTuner v4.0
 ```
