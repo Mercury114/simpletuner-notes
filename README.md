@@ -1,12 +1,4 @@
 
-
-
-
-这里是为你排版好的 Markdown 文本。我已经优化了层级结构，添加了代码高亮（Bash, JSON, Python），并整理了表格和常见错误部分，使其非常适合直接粘贴到 GitHub 博客或 Repository 的 `README.md` 中。
-
-你点击右上角的“复制”按钮即可直接使用：
-
-```markdown
 # SimpleTuner + SD3 LoRA 微调配置指南
 
 > 基于 SimpleTuner 的 Stable Diffusion 3 统一标签微调技术记录
