@@ -45,7 +45,7 @@ pip install -e .  # 最后安装 SimpleTuner
 
 ### 1. 主配置文件 (`config.json`)
 
-> **⚠️ 关键约束**：`num_train_epochs` 与 `max_train_steps` 互斥，**必须二选一**。
+> **⚠️ 关键约束**：**num_train_epochs** 与 **max_train_steps** 互斥，**必须二选一**。
 
 ```json
 {
