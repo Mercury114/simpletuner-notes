@@ -1,5 +1,6 @@
 
 # SimpleTuner + SD3 LoRA 微调配置指南
+使用Lora微调SD3模型过程中的出现的一点问题和解决方式，希望可以帮助到你
 
 > 基于 SimpleTuner 的 Stable Diffusion 3 统一标签微调技术记录
 
